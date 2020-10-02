@@ -1,0 +1,7 @@
+---
+- name: copying the file from one server to another 
+  hosts: all
+  tasks:
+- name: copying text file from ansible to remote server
+  path:
+  
